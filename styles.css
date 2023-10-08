@@ -1,3 +1,13 @@
 .square {
     flex: 0 0 6.25%;    
 }
+
+h1 {
+    text-align: center;
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

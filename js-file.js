@@ -9,4 +9,4 @@ for(i = 0; i < 256; i++) {
     container.appendChild(square);
 }
 
-container.style.cssText = 'display: flex; height: 50vh; width: 50vw; flex-wrap: wrap; border: 3px solid blue; justify-content: center;'
+container.style.cssText = 'display: flex; text-align:center; height: 50vh; width: 50vw; flex-wrap: wrap; border: 3px solid blue;'
