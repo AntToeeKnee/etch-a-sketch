@@ -10,7 +10,7 @@ let gridCount = 16;
 function makeGrid() {
     const cssSpacing = (gridCount/(gridCount*gridCount)) * 100;
     const cssString = cssSpacing.toString() + '%';
-    if(gridCount > 100 || gridCount === "") {
+    if(gridCount > 100 || gridCount === "" || gridCount == 0) {
         alert('Please choose a valid/lower amount for the grid. Setting to default size');
         gridCount = 16;
         makeGrid();
